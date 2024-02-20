@@ -4,8 +4,8 @@ class Car:
     self.make = make 
     self.model = model
 
-  def info(self, year, make, model):
-    return year, make, model
+  def info(self):
+    return delf
 
 kia = Car(2014, "Kia", "worm car which i do enjoy")
 year, make, model = kia.info(2014, "Kia", "worm car which i do enjoy")
