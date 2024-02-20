@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "cars test",
+      "setup": "wget \"https://raw.githubusercontent.com/CF-Code-Collective-Admin/LessonFollowups/main/ClassesAndDataTypes/cars_tester.py\"",
+      "run": "python3 cars_tester.py",
+      "input": "",
+      "output": "OK",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "registry test",
+      "setup": "wget \"https://raw.githubusercontent.com/CF-Code-Collective-Admin/LessonFollowups/main/ClassesAndDataTypes/registry_tester.py\"",
+      "run": "python3 registry_tester.py",
+      "input": "",
+      "output": "OK",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "rounding test",
+      "setup": "wget \"https://raw.githubusercontent.com/CF-Code-Collective-Admin/LessonFollowups/main/ClassesAndDataTypes/rounding_tester.py\"",
+      "run": "python3 rounding_tester.py",
+      "input": "",
+      "output": "OK",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "unique test",
+      "setup": "wget \"https://raw.githubusercontent.com/CF-Code-Collective-Admin/LessonFollowups/main/ClassesAndDataTypes/unique_tester.py\"",
+      "run": "python3 unique_tester.py",
+      "input": "",
+      "output": "OK",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "vectors test",
+      "setup": "wget \"https://raw.githubusercontent.com/CF-Code-Collective-Admin/LessonFollowups/main/ClassesAndDataTypes/vectors_tester.py\"",
+      "run": "python3 vectors_tester.py",
+      "input": "",
+      "output": "OK",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
