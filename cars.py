@@ -4,6 +4,8 @@ Spyder Editor
 
 This is a temporary script file.
 """
+if __name__ == "__main__": 
+    main()
 
 class car():
     def __init__(self, year, make, model):
@@ -13,7 +15,3 @@ class car():
         
     def info(self):
         return self.year, self.make, self.model
-    
-kia = car(2014, "Kia", "Sportage")
-year, make, model = kia.info()
-print(f"This car is a {year} {make} {model}")
