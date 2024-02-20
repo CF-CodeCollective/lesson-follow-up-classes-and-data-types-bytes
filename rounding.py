@@ -1,2 +1,9 @@
-def run(invalue):
-         return(int(round(invalue, 0)))
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb 20 18:02:12 2024
+
+@author: lab40-204-4
+"""
+
+def run(num):
+    return round(num)
