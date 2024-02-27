@@ -17,4 +17,4 @@ class Vector3():
         return Vector3((a.y * b.z) - (b.y * a.z), -((a.x * b.z) - (b.x * a.z)), (a.x * b.y) - (b.x * a.y))
     
     def __str__(self):
-        return f"<{self.x},{self.y},{self.z}>"
+        return f"<{self.x}, {self.y}, {self.z}>"
