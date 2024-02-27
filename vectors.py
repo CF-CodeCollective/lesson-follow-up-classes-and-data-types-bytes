@@ -4,17 +4,14 @@ class Vector3:
         self.y = y
         self.z = z
 
-    def add(self, other):
-        return Vector3(self.x + other.x, self.y + other.y, self.z + other.z)
+    def add(a, b):
+        return Vector3(a.x + b.x, a.y + b.y, a.z + b.z)
 
-    def subtract(self, other):
-        return Vector3(self.x - other.x, self.y - other.y, self.z - other.z)
+    def subtract(a, b):
+        return Vector3(a.x - b.x, a.y - b.y, a.z - b.z)
 
-    def dot(self, other):
-        return self.x * other.x + self.y * other.y + self.z * other.z
+    def dot(a, b):
+        return a.x * b.x + a.y * b.y + a.z * b.z
 
-    def cross(self, other):
-        return Vector3(self.y * other.z - self.z * other.y, -(self.z * other.x - self.x * other.z), self.x * other.y - self.y * other.x)
-
-    def run(self):
-        return f"({self.x}, {self.y}, {self.z})"
+    def cross(a, b):
+        return Vector3(a.y * b.z - a.z * b.y, -(a.z * b.x - a.x * b.z), a.x * b.y - a.y * b.x)
